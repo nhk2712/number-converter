@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+    <div>
+        <input type="checkbox" id="dark">
+        <label>Dark theme</label>
+        <br/>
+        <label>Choose conversion mode:</label>
+        <select id="mode">
+            <option value="0">Integer to binary</option>
+            <option value="1">Integer to hexadecimal</option>
+            <option value="2">Binary to integer</option>
+            <option value="3">Hexadecimal to integer</option>
+        </select>
+    </div>
+
+    <div id="intBin" class="conv">
+        <label>Integer:</label>
+        <input type="number" id="inte">
+
+        <button id="btn">Convert</button>
+
+        <p>Binary:</p>
+        <div id="bina"></div>
+    </div>
+
+    <div id="intHex" class="conv">
+        <label>Integer:</label>
+        <input type="number" id="inteHex">
+
+        <button id="btnHex">Convert</button>
+
+        <p>Hexadecimal:</p>
+        <div id="hexa"></div>
+    </div>
+
+    <div id="binInt" class="conv">
+        <label>Binary:</label>
+        <input type="text" id="binaInt">
+
+        <button id="btnInt">Convert</button>
+
+        <p>Integer:</p>
+        <div id="intFrBin"></div>
+    </div>
+
+    <div id="hexInt" class="conv">
+        <label>Hexadecimal:</label>
+        <input type="text" id="hexaInt">
+
+        <button id="btnHexInt">Convert</button>
+
+        <p>Integer:</p>
+        <div id="intFrHex"></div>
+    </div>
+
+    <script src="script/main.js"></script>
+</body>
+
+</html>

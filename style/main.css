@@ -1,0 +1,11 @@
+#mode{
+    margin-bottom: 20px;
+}
+
+.conv{
+    display: none;
+}
+
+#intBin{
+    display: unset;
+}
